@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<!-- contains metadata and resources for the browser, not directly visible on the page -->
+	<head>
+		<!-- sets the character encoding to UTF-8 for proper text rendering -->
+		<meta charset="utf-8">
+		<!-- ensures the page is responsive on different devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- sets the webpage title -->
+		<title>Reine | Web Developer Portfolio</title>
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+		<!-- external css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<!-- contains all the visible content of the webpage that users see and interact with -->
+	<body>
+		<!-- division or section. creates a wrapper or container for our layout -->
+		<!-- class - attribute. a way to give name to the current html tag we are adding aka div -->
+		<!-- class is reusable i.e. styling -->
+		<div class="container-fluid">
+			<!-- section is used for grouping related content with semantic meaning -->
+			<!-- id is an attribute to name a tag uniquely -->
+			<section id="landing" class="text-center mt-5">
+				<!-- this defines a main heading for the webpage -->
+				<!-- HTML has six heading levels, H1 being the largest and most important -->
+				<h1>Full Stack Developer</h1>
+				<!-- paragraph of text -->
+				<p>Hi! My name is Reine and I love building things from scratch.</p>
+				<!-- this is used to embbed an image in a web page -->
+					<!-- src: specifies the source/path to the image file that is to be displayed -->
+				<img src="images/avatar.jpg" id="profile" class="img-fluid"/>
+				<!-- defines a hyperlink, which is used to link a page to another -->
+				<a href="mailto:reinearabelle@gmail.com" class="btn btn-success btn-lg mt-3">Let's Work Together</a>
+			</section>
+		</div>
+
+		<footer class="fixed-bottom">
+			<a href="https://zuitt.co/?referral=2402-org-ali" target="_blank">
+				<i class="fa-solid fa-globe"></i>
+			</a>
+
+			<a href="https://www.facebook.com/zuitttechcareer" target="_blank">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+
+			<a href="https://twitter.com/zuittco" target="_blank">
+				<i class="fa-brands fa-x-twitter"></i>
+			</a>
+
+			<a href="https://www.instagram.com/zuitt_co/" target="_blank">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+
+			<a href="https://www.tiktok.com/@zuittco" target="_blank">
+				<i class="fa-brands fa-tiktok"></i>
+			</a>
+
+			<a href="https://www.youtube.com/@ZuittCo" target="_blank">
+				<i class="fa-brands fa-youtube"></i>
+			</a>
+		</footer>
+
+		<!-- fontawesome scripts -->
+		<script src="https://kit.fontawesome.com/9da90990cf.js" crossorigin="anonymous"></script>
+
+		<!-- bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	</body>
+</html>
